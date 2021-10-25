@@ -179,7 +179,9 @@ exports.delete_product = async function (req, res) {
             });
             console.log("Data deleted at row " + id);
             fs.unlink(`./public${isFound.product_image}`, (err =>{
-                console.log("Failed to delete local File");
+                if(err){
+                    console.log("Failed to delete local File");
+                }
             }))
             res.status(200).json({
                 message: `Data deleted at row ${id}`
