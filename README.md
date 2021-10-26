@@ -94,9 +94,9 @@ Customize each value with the one you are using.
 
 **Used for authentication**
 
-| No. | Method | Endpoint                     | Information                          |
-| --- | ------ | ---------------------------- | ------------------------------------ |
-| 1.  | POST   | /auth/login                  | Used for login to create auth token  |
+| No. | Method | Endpoint                           | Information                          |
+| --- | ------ | ---------------------------------- | ------------------------------------ |
+| 1.  | POST   | api/v1/user/login                  | Used for login to create auth token  |
 
 
 ### Product Router
