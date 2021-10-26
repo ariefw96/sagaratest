@@ -56,7 +56,7 @@ Built with Node js, using ExpressJs framework and other libraries.
 
 1. Open your terminal or command prompt
 
-2. Type `git clone https://github.com/GasPoll-Team/Z-Wallet-React-Native.git`
+2. Type `git clone https://github.com/ariefw96/sagaratest.git`
 
 3. Open the folder and type `npm install` for install dependencies
 
@@ -114,7 +114,7 @@ Customize each value with the one you are using.
 
 For more documentation , check it out below!
 
-<a  href="https://documenter.getpostman.com/view/13530339/TW6xoU7C">
+<a  href="https://documenter.getpostman.com/view/16435417/UV5c9vKz">
 
 <img  src="https://img.shields.io/badge/Documentation-POSTMAN-blue.svg?style=popout&logo=postman"/>
 
