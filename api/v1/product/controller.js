@@ -73,7 +73,7 @@ exports.get_single_product = async function (req, res) {
             }
         });
         res.status(200).json({
-            message: "Produk berhasil ditampilkan",
+            message: dataProduct == null? 'Produk tidak ditemukan' : 'Produk berhasil ditampilkan',
             data: dataProduct
         });
     } catch (e) {
