@@ -106,7 +106,7 @@ Customize each value with the one you are using.
 | --- | ------ | ------------------------------------ | ------------------------------------------------------------- |
 | 1.  | POST   | api/v1/product/add_product           | Used for add new product, using JWT auth.                     |
 | 2.  | GET    | api/v1/product/all_product           | Used for get all product.                                     |
-| 3.  |        | api/v1/product/get_product?id=       | Used for get single product.                                  |
+| 3.  | GET    | api/v1/product/get_product?id=       | Used for get single product.                                  |
 | 4.  | UPDATE | api/v1/product/update_product?id=    | Used for update product, using JWT auth.                      |
 | 4.  | DELETE | api/v1/product/delete_product?id=    | Used for delete product, using JWT auth.                       |
 
